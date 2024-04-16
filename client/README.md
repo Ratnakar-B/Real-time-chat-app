@@ -125,8 +125,8 @@ Server.js
 Package. Json
 
 How to run the code.
+
 • Install a node-module in client end. Then run it as per the front-end side instructions.
 • Open two terminals one is for server.js and another are for client.
 • Back-end: server.js, give command “npm start”.
-• Front-End side: cd client
-• npm start
+• Front-End side: cd Real-time-chat-app----> cd client------> npm start.
