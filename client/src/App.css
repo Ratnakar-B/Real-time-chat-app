@@ -1,0 +1,130 @@
+.signup-container,
+.login-container,
+.chatRoom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  background-image: linear-gradient(to right, red, blue);
+}
+.chatRoom-container {
+  height: 80vh;
+}
+.signup-container form,
+img {
+  background-image: linear-gradient(
+    to top,
+    rgb(39, 5, 5) 40%,
+    rgb(108, 108, 112) 80%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login-container form,
+img {
+  background-image: linear-gradient(
+    to top,
+    rgb(39, 5, 5) 40%,
+    rgb(108, 108, 112) 80%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navBar-tab {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navBar-tab:hover {
+  background-color: #ff9800;
+  text-decoration: underline;
+  color: cadetblue;
+}
+
+.pic {
+  width: 240px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.brandPic {
+  width: 20vw;
+  border-bottom-right-radius: 10%;
+  border-top-left-radius: 30%;
+}
+
+.login-container form {
+  height: 40vh;
+}
+
+form {
+  width: 24%;
+  height: 95vh;
+  border: 2px solid aqua;
+}
+h1 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 35px;
+}
+h2::first-letter {
+  color: white;
+  font-size: 50px;
+}
+
+form input {
+  width: 18vw;
+  padding: 16px;
+  font-size: 16px;
+  color: #222831;
+  font-weight: 550;
+}
+.login-container input {
+  margin: 1.5vh;
+  padding: 18px;
+}
+.fileInput {
+  cursor: pointer;
+}
+button {
+  width: 10vw;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 575;
+  cursor: pointer;
+  background-color: #e8751a;
+  border: none;
+}
+button:hover {
+  background-color: #ff9800;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  padding: 2px;
+  color: white;
+}
+
+.loginLink {
+  text-decoration: none;
+  color: #e8751a;
+  font-size: 18px;
+  margin: 5px;
+}
+.loginLink:hover {
+  text-decoration: underline;
+  color: #cdfadb;
+}
+.chatRoom-input {
+  width: 400px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+}
